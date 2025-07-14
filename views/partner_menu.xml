@@ -1,14 +1,12 @@
 <odoo>
 
 
-
-     <record id="action_custom_partner_view" model="ir.actions.act_window">
+    <record id="action_custom_partner_view" model="ir.actions.act_window">
         <field name="name">Enhanced Customers</field>
         <field name="res_model">res.partner</field>
         <field name="view_mode">tree,form</field>
         <field name="context">{}</field>
     </record>
-
 
 
     <menuitem id="menu_customer_extension_root" name="Customer Enhancements" sequence="10"/>
@@ -19,7 +17,6 @@
               parent="menu_customer_extension_root"
               action="action_custom_partner_view"
               sequence="1"/>
-
 
 
 </odoo>

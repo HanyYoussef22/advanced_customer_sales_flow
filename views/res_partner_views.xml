@@ -6,9 +6,8 @@
         <field name="arch" type="xml">
             <xpath expr="//field[@name='function']" position="after">
                 <field name="sector"/>
-                <field name="loyalty_score"/> 
+                <field name="loyalty_score"/>
             </xpath>
         </field>
-
     </record>
 </odoo>
