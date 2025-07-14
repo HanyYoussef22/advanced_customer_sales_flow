@@ -1,0 +1,14 @@
+<odoo>
+    <record id="view_partner_from_inherit_sector_loyalty" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit.sector.loyalty</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+        <xpath expr="//field[@name='function']" position="after">
+            <field name="sector"/>
+            <field name="loyalty_score"/>
+        </xpath>
+        </field>
+
+    </record>
+</odoo>
