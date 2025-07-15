@@ -5,9 +5,9 @@
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
             <xpath expr="//field[@name='function']" position="after">
-                <field name="sector"/>
-                <field name="loyalty_score"/>
-                <field name="account_manager_id"/>
+                 <field name="sector"/>
+                 <field name="loyalty_score"/>
+                 <field name="account_manager_id"/>
             </xpath>
         </field>
     </record>
