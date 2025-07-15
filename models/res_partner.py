@@ -14,3 +14,9 @@ class ResPartner(models.Model):
         ],string="Sector",)
 
     loyalty_score = fields.Integer(string="Loyalty Score", default=0)
+
+    account_manager_id = fields.Many2one(
+        'res.users',
+        string="Account Manager",
+        domain=[('share', '=', False)],  # only regular users, not portal or public users (Internal User)
+    )
