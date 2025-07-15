@@ -1,0 +1,17 @@
+<odoo>
+    <record id="view_users_form_inherit_job_perf" model="ir.ui.view">
+        <field name="name">res.users.form.inherit.job.perf</field>
+        <field name="model">res.users</field>
+        <field name="inherit_id" ref="base.view_users_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="HR Info">
+                    <group>
+                        <field name="job_title"/>
+                        <field name="performance_rating"/>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
