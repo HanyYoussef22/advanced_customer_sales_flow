@@ -8,6 +8,7 @@
                  <field name="sector"/>
                  <field name="loyalty_score"/>
                  <field name="account_manager_id"/>
+
             </xpath>
         </field>
     </record>

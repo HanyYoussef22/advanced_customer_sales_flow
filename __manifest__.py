@@ -13,12 +13,13 @@ Key Features:
     """,
     'category': 'Sales',
     'author': 'Hany Youssef',
-    'depends': ['base','sale'],
+    'depends': ['base','sale','stock'],
     'data': [
         'views/partner_menu.xml',
         'views/res_partner_views.xml',
         'views/res_users_views.xml',
         'views/sale_order_views.xml',
+        'views/stock_picking_views.xml',
 
     ],
     'installable': True,
