@@ -7,6 +7,7 @@
             <xpath expr="//field[@name='function']" position="after">
                  <field name="sector"/>
                  <field name="loyalty_score"/>
+                 <field name="loyalty_level"/>
                  <field name="account_manager_id"/>
 
             </xpath>

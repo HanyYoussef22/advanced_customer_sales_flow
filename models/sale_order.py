@@ -1,4 +1,4 @@
-from odoo import models, fields
+from odoo import models, fields ,api
 
 class SaleOrder(models.Model):
     _inherit = 'sale.order'
@@ -10,3 +10,4 @@ class SaleOrder(models.Model):
     ], string='Order Type')
 
     delivery_deadline = fields.Date(string='Delivery Deadline')
+
